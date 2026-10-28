@@ -40,7 +40,7 @@
 把整个文件夹放进你的 Agent 的 skills 目录，例如 Claude Code：
 
 ```bash
-git clone https://github.com/<你的用户名>/iso-explode-film ~/.claude/skills/iso-explode-film
+git clone https://github.com/Warrickchenxin/iso-explode-film ~/.claude/skills/iso-explode-film
 ```
 
 然后对 AI 说：「用等轴爆炸大片 Skill，把这份 CAD 做成一条 30 秒的拆装广告片」。
@@ -104,7 +104,7 @@ The product is rebuilt as hundreds of real geometric parts. A storyboard drives 
 Put the folder in your agent's skills directory, for example Claude Code:
 
 ```bash
-git clone https://github.com/<your-username>/iso-explode-film ~/.claude/skills/iso-explode-film
+git clone https://github.com/Warrickchenxin/iso-explode-film ~/.claude/skills/iso-explode-film
 ```
 
 Then ask: "Use the iso-explode-film skill to make a 30-second teardown ad film from this CAD."
