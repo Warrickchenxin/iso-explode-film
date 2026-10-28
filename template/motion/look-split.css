@@ -1,0 +1,5 @@
+html,body,.mo{background:transparent!important}
+.mo .mo-bg,.mo .mo-vignette{display:none}
+.mo .iso-stage{filter:drop-shadow(0 1px 1.5px rgba(30,10,0,.45)) drop-shadow(8px 6px 8px rgba(60,18,0,.30)) drop-shadow(34px 20px 34px rgba(90,25,0,.30))}
+.mo .mo-plate{display:none!important}
+.mo svg,.mo .iso-stage{overflow:visible!important}

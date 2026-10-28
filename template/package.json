@@ -1,0 +1,16 @@
+{
+  "name": "iso-explode-film-project",
+  "private": true,
+  "type": "module",
+  "description": "An object built from convex parts, its interactive anatomy page and its isometric explode film.",
+  "scripts": {
+    "figure": "node object/build.mjs && node object/build.mjs --light",
+    "film": "node motion/build.mjs --look split && node motion/build.mjs --look dark",
+    "scan": "node motion/scan.mjs motion/motion-split.html",
+    "stills": "python3 film/render_film.py out/stills --look split --frames 60,200,300,390,450,540,660,770,880",
+    "render": "bash film/run_render.sh both"
+  },
+  "dependencies": {
+    "puppeteer-core": "^23.0.0"
+  }
+}
